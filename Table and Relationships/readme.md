@@ -16,23 +16,19 @@ Customers
 
 Products
 
-Columns: ProductID, Price, ProductLine, QuantityInStock, BuyPrice, MSRP
+- Columns: ProductID, Price, ProductLine, QuantityInStock, BuyPrice, MSRP
 
-Description: Stores product pricing and inventory data
-
-Relationships:
-
-Many-to-One (Product Lines)
-
-Many-to-Many (Orders via Order Details)
+- Description: Stores product pricing and inventory data
+  
+- Relationships: Many-to-One (Product Lines), Many-to-Many (Orders via Order Details)
 
 Stores
 
-Columns: StoreID, Location, Size, NumberOfEmployees
-
-Description: Physical retail store locations
-
-Relationship: One-to-Many
+- Columns: StoreID, Location, Size, NumberOfEmployees
+  
+- Description: Physical retail store locations
+  
+- Relationship: One-to-Many
 
 Manufacturing Locations
 
