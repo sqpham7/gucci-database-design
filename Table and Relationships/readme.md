@@ -1,18 +1,18 @@
 Employees
 
-Columns: EmployeeID, FirstName, LastName, Age, PhoneNumber, Address, Salary
-
-Description: Stores details of company employees
-
-Relationship: One-to-Many (with Offices)
+- Columns: EmployeeID, FirstName, LastName, Age, PhoneNumber, Address, Salary
+  
+- Description: Stores details of company employees
+  
+- Relationship: One-to-Many (with Offices)
 
 Customers
 
-Columns: CustomerID, FirstName, LastName, LastTimeBuying, Address, PhoneNumber
-
-Description: Stores customer information
-
-Relationship: One-to-Many (with Orders, Payments)
+- Columns: CustomerID, FirstName, LastName, LastTimeBuying, Address, PhoneNumber
+  
+- Description: Stores customer information
+  
+- Relationship: One-to-Many (with Orders, Payments)
 
 Products
 
